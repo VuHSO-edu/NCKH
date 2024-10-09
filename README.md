@@ -47,12 +47,18 @@
             Trung bình và phương sai là hai yếu tố quan trọng khác trong mô hình Markowitz. Trung bình của một tập hợp dữ liệu
             là giá trị trung bình của tất cả các giá trị trong tập hợp đó. Phương sai của một tập hợp dữ liệu là độ biến động
             của tất cả các giá trị trong tập hợp đó so với giá trị trung bình của tập hợp đó.
+
+![](image/Trung bình và phương sai.png)
+
         10. Sự đa dạng hóa danh mục
             Sự đa dạng hóa danh mục là một yếu tố quan trọng khác trong mô hình Markowitz. Sự đa dạng hóa danh mục là việc
             phân bổ tài sản vào nhiều loại tài sản khác nhau để giảm thiểu rủi ro và tăng hiệu suất.
         11. Đường phân bố vốn CAL(Capital Allocation Line)
             Đường phân bố vốn CAL là một yếu tố quan trọng khác trong mô hình Markowitz. Đường phân bố vốn CAL là đường thẳng
             nối điểm rủi ro tối ưu và điểm rủi ro không rủi ro.
+
+![](https://upload.wikimedia.org/wikipedia/commons/e/e1/Markowitz_frontier.jpg)
+
         12. Đường phân bố tài sản EF(Efficient Frontier)
             Đường phân bố tài sản EF là một yếu tố quan trọng khác trong mô hình Markowitz. Đường phân bố tài sản EF là đường
             cong nối tất cả các điểm rủi ro tối ưu của các danh mục tài sản.
