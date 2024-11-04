@@ -143,7 +143,7 @@ def main():
 
     # Nhập ngày bắt đầu và ngày kết thúc
     start_date = st.date_input("Ngày bắt đầu", pd.to_datetime('2021-01-01')).strftime('%Y-%m-%d')
-    end_date = st.date_input("Ngày kết thúc", pd.to_datetime('2021-12-31')).strftime('%Y-%m-%d')
+    end_date = st.date_input("Ngày kết thúc", pd.to_datetime("today")).strftime('%Y-%m-%d')
 
     # Hiển thị dữ liệu đóng cửa các mã chứng khoán
     if tickers:
@@ -165,7 +165,7 @@ def main():
         st.write(cov_matrix)
 
         # Nhập lợi nhuận kỳ vọng từ người dùng
-        target_return = st.slider("Chọn lợi nhuận kỳ vọng (%)", 0.0, 0.3, 0.1)
+        target_return = st.slider("Chọn lợi nhuận kỳ vọng (%)", 0.0, 0.3, 0.1, step = 0.001)
 
         # Tối ưu hóa danh mục đầu tư
         optimized_result = optimize_portfolio(mean_returns, cov_matrix, len(tickers), target_return)
