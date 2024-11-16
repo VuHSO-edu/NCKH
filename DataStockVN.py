@@ -3,7 +3,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-import seaborn as sns
 from scipy.optimize import minimize
 
 
@@ -121,6 +120,21 @@ ticker_mapping = {
     'MBS': 'MBS',    # Chứng khoán
     'TCH': 'TCH',    # Bất động sản
     'FCN': 'FCN',    # Xây dựng
+    'HAH': 'HAH',    # Vận tải biển
+    'TCB': 'TCB',    # Ngân hàng
+    'BSI': 'BSI',    # Chứng khoán
+    'FTS': 'FTS',    # Chứng khoán
+    'SVC': 'SVC',    # Ô tô
+    'HRC': 'HRC',    # Cao su
+    'COM': 'COM',    # Thương mại
+    'VCS': 'VCS',    # Vật liệu xây dựng
+    'HAH': 'HAH',
+    'TCB': 'TCB',
+    'BSI': 'BSI',
+    'FTS': 'FTS',
+    'SVC': 'SVC',
+    'HRC': 'HRC',
+    'COM': 'COM',
 }
 
 
